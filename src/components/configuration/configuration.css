@@ -1,0 +1,20 @@
+#compact {
+  font-size: 14px;
+  margin: 10px 30px;
+  background: white;
+  height: 940px; }
+
+.compact-top {
+  font-size: 15px;
+  margin-left: 40px; }
+
+#compact-cart {
+  padding: 10px 25px; }
+  #compact-cart button.option {
+    padding: 2px 8px;
+    letter-spacing: 2px;
+    background: #0f87dd;
+    color: #e7f6e1;
+    border: none; }
+
+/*# sourceMappingURL=configuration.css.map */

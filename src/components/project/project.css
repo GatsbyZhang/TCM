@@ -1,0 +1,63 @@
+#project {
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px; }
+
+#project .project-list {
+  width: 18%;
+  min-width: 245px;
+  margin: 20px 30px; }
+  #project .project-list button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: white; }
+  #project .project-list li > div {
+    line-height: 75px; }
+    #project .project-list li > div > div {
+      cursor: pointer;
+      line-height: 25px; }
+  #project .project-list .project-list-content {
+    background: #eee;
+    margin-top: 10px;
+    padding: 5px; }
+    #project .project-list .project-list-content .checked {
+      display: inline-block;
+      vertical-align: middle;
+      width: 25px;
+      height: 25px;
+      border: 1px solid #dddddd;
+      background: white;
+      margin: 0 10px; }
+      #project .project-list .project-list-content .checked i {
+        vertical-align: top;
+        font-size: 24px;
+        color: #0f87dd; }
+    #project .project-list .project-list-content .project-detail {
+      width: 80%;
+      display: inline-block;
+      vertical-align: middle;
+      color: #1c94c4;
+      font-size: 14px; }
+    #project .project-list .project-list-content span {
+      float: right; }
+  #project .project-list .project-date {
+    text-align: right; }
+  #project .project-list .total {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #333; }
+
+.project-nav {
+  width: 100%;
+  margin-top: 50px; }
+  .project-nav button.option {
+    padding: 2px 8px;
+    letter-spacing: 2px;
+    background: #0f87dd;
+    color: #e7f6e1;
+    border: none; }
+
+/*# sourceMappingURL=project.css.map */

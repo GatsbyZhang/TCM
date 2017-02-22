@@ -1,0 +1,75 @@
+#compact{
+  font-size: 14px;
+  margin: 10px 30px;
+  background: white;
+  height: 940px;
+}
+.compact-top{
+  font-size: 15px;
+  margin-left: 40px;
+}
+#compact-cart{
+  padding: 10px 25px;
+}
+.config-dialog {
+  width: 900px !important;
+}
+.config-form {
+  > div {
+    padding: 5px 20px;
+    margin: 5px 0;
+    line-height: 25px;
+    font-size: 15px;
+    input, select {
+      width: 140px;
+      padding-left: 10px;
+      margin: 0 10px;
+    }
+    label {
+      font-size: 14px;
+      color: black;
+      display: inline-block;
+      width: 90px;
+      text-align: center;
+    }
+  }
+  div.product{
+    line-height: inherit;
+  }
+  div.input-long{
+    input{
+      width: 280px;
+    }
+  }
+  #access-cart-list{
+    select{
+      margin: auto;
+      width: 75px;
+      color: blue;
+      font-size: 14px;
+    }
+  }
+}
+.tong-data-base{
+  >div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    border-right: 1px solid black;
+    height: 200px;
+    vertical-align: top;
+    div{
+      text-align: center;
+    }
+  }
+  .data-name{
+    margin-top: 15px;
+     label{
+       font-size: 12px;
+     }
+    input{
+      width: 120px;
+      height: 25px;
+    }
+  }
+}

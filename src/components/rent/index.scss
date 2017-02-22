@@ -1,0 +1,91 @@
+#rent {
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px;
+  .rent-tab{
+    padding: 5px 20px;
+  }
+  .company {
+    width: 300px;
+    height: 890px;
+    float: left;
+    font-size: 14px;
+    margin: 5px;
+    overflow: auto;
+    color: black;
+    .companyHeader {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      i {
+        font-size: 20px;
+        margin: 8px 5px;
+        float: right;
+      }
+    }
+    .companyList {
+      width: 100%;
+      height: 70px;
+      background: #41C7DB;
+      margin: 10px 0;
+      padding: 5px;
+      p {
+        width: 100%;
+        text-align: right;
+      }
+    }
+  }
+  .rent {
+    width: 100%-300;
+    height: 840px;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 40px;
+    overflow: auto;
+    padding-left: 10px;
+    div.ant-tabs-nav {
+      width: 100%;
+    }
+    div[role="tab"] {
+      width: 12%;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  #rent-list1 tr,#sendGoods-list4 tr,#sendGoods-list3 tr,#sendGoods-list7 tr,#sendGoods-list8 tr,#sendGoods-list9 tr,#sendGoods-list11 tr{
+    height: 40px;
+    button {
+      width: 80px;
+      height: 30px;
+      background: #0CB0B5;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+  #rightMute {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #888888;
+    ul {
+      list-style: none;
+      width: 100%;
+      li {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+

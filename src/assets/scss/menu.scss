@@ -1,0 +1,29 @@
+#menu{
+  width: 14%;
+  min-width: 160px;
+  float: left;
+  height: 970px;
+  font-size: 16px;
+  background: #555;
+  ul{
+    list-style: none;
+    li{
+      width:90%;
+      margin:0 auto;
+      height:50px;
+      line-height:50px;
+      color:white;
+      border-bottom:none;
+      padding:0 0 0 10px;
+      &:hover{
+        color:darkgrey;
+        border-bottom:3px solid darkgrey;
+        cursor:pointer;
+      }
+      &.checked{
+        color: lightseagreen;
+        border-bottom: 3px solid lightseagreen;
+      }
+    }
+  }
+}

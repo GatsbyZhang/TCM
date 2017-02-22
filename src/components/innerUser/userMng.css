@@ -1,0 +1,40 @@
+#userMng-table tr, #userOperate-table tr {
+  line-height: 2em;
+  height: 2em;
+  padding: 0.5em;
+  margin: 0.5em; }
+
+.roll-btn {
+  border: none;
+  background: #108EE9;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: #fff; }
+
+.roll-btn-disabled {
+  border: none;
+  background: #ddd;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: #fff;
+  cursor: not-allowed; }
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px; }
+
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer; }
+
+.avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999; }
+
+/*# sourceMappingURL=userMng.css.map */

@@ -1,0 +1,55 @@
+#takeGoods {
+  width: 100%; }
+  #takeGoods .company {
+    width: 300px;
+    height: 890px;
+    float: left;
+    font-size: 14px;
+    margin: 5px;
+    overflow: auto;
+    color: black; }
+    #takeGoods .company .companyHeader {
+      width: 100%;
+      height: 40px;
+      line-height: 40px; }
+      #takeGoods .company .companyHeader i {
+        font-size: 20px;
+        margin: 8px 5px;
+        float: right; }
+    #takeGoods .company .companyList {
+      width: 100%;
+      height: 70px;
+      background: #41C7DB;
+      margin: 10px 0;
+      padding: 5px; }
+      #takeGoods .company .companyList p {
+        width: 100%;
+        text-align: right; }
+  #takeGoods .takeGoods {
+    width: -200%;
+    height: 840px;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 40px;
+    border: 1px solid black;
+    overflow: auto; }
+    #takeGoods .takeGoods div.ant-tabs-nav {
+      width: 100%; }
+    #takeGoods .takeGoods div[role="tab"] {
+      width: 16%;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      text-align: center; }
+  #takeGoods #takeGoods-list1 tr, #takeGoods #sendGoods-list2 tr, #takeGoods #sendGoods-list3 tr, #takeGoods #sendGoods-list6 tr, #takeGoods #sendGoods-list7 tr, #takeGoods #sendGoods-list11 tr {
+    height: 40px; }
+    #takeGoods #takeGoods-list1 tr button, #takeGoods #sendGoods-list2 tr button, #takeGoods #sendGoods-list3 tr button, #takeGoods #sendGoods-list6 tr button, #takeGoods #sendGoods-list7 tr button, #takeGoods #sendGoods-list11 tr button {
+      width: 80px;
+      height: 30px;
+      background: #0CB0B5;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 5px;
+      color: white; }
+
+/*# sourceMappingURL=index.css.map */

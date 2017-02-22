@@ -1,0 +1,64 @@
+#carsManagement{
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px;
+  .cars-all{
+    &>div{
+      padding: 5px 20px;
+    }
+  }
+  .options{
+    margin-bottom: 1.5rem;
+  }
+}
+#cars-table{
+  tr{
+    line-height: 2em;
+    height:2em;
+    padding:0.5em;
+    margin:0.5em;
+  }
+}
+
+.breakdown{
+  background-color: #108EE9;
+  color: #fff;
+  display: inline-block;
+  line-height: 2em;
+  width: 6em;
+  text-align: center;
+  cursor: pointer;
+}
+.roll-btn{
+  width: 80px;
+  height: 30px;
+  background: #0CB0B5;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.roll-btn-disabled{
+  border:none;
+  width: 80px;
+  height: 30px;
+  background: #ddd;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: not-allowed;
+}
+#car-detail-model{
+  height: 1080px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width:10px;
+  }
+  &::-webkit-scrollbar-thumb{
+    background:#FFA711;
+    border-radius:4px;
+  }
+}

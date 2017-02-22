@@ -1,0 +1,55 @@
+#configuration{
+  font-size: 14px;
+  margin: 10px 30px;
+  background: white;
+  height: 940px;
+}
+.configuration-top{
+  font-size: 15px;
+  margin-left: 40px;
+}
+#configuration-cart{
+  padding: 10px 25px;
+}
+
+.compact-dialog {
+  width: 900px !important;
+}
+.compact-form {
+  > div {
+    padding: 5px 20px;
+    margin: 5px 0;
+    line-height: 25px;
+    font-size: 15px;
+    input, select {
+      width: 140px;
+      padding-left: 10px;
+      margin: 0 10px;
+    }
+    label {
+      font-size: 14px;
+      color: black;
+      display: inline-block;
+      width: 90px;
+      text-align: center;
+    }
+  }
+  div.product{
+    line-height: inherit;
+  }
+}
+
+.compact-form  .examine {
+  margin-top: 20px;
+  div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    width: 150px;
+    text-align: center;
+  }
+  img {
+    width: 150px;
+    height: 100px;
+  }
+}

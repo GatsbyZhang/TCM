@@ -1,0 +1,134 @@
+#project {
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px;
+}
+
+#project .project-list {
+  width: 18%;
+  min-width: 245px;
+  margin: 20px 30px;
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: white;
+  }
+  li > div {
+    line-height: 75px;
+    > div {
+      cursor: pointer;
+      line-height: 25px;
+    }
+  }
+  .project-list-content {
+    margin-top: 10px;
+    padding: 5px;
+    max-height: 700px;
+    overflow-y: scroll;
+    li {
+      margin-top: 20px;
+      background: #eee;
+    }
+    .pro-checked {
+      background: #f8da4e;
+    }
+    .checked {
+      display: inline-block;
+      vertical-align: middle;
+      width: 25px;
+      height: 25px;
+      border: 1px solid #dddddd;
+      background: white;
+      margin: 0 10px;
+      i {
+        vertical-align: top;
+        font-size: 24px;
+        color: #0f87dd;
+      }
+    }
+    .project-detail {
+      width: 80%;
+      display: inline-block;
+      vertical-align: middle;
+      color: #1c94c4;
+      font-size: 14px;
+    }
+    span {
+      float: right;
+    }
+  }
+  .project-date {
+    text-align: right;
+  }
+  .total {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #333;
+  }
+}
+
+.project-nav {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.delivery-dialog, .addpro-dialog {
+  width: 900px !important;
+}
+
+.delivery-form, .addpro-form {
+  > div {
+    padding: 5px 20px;
+    margin: 5px 0;
+    line-height: 25px;
+    font-size: 15px;
+    input, select {
+      width: 140px;
+      padding-left: 10px;
+      margin: 0 10px;
+    }
+    label {
+      font-size: 14px;
+      color: black;
+      display: inline-block;
+      width: 90px;
+      text-align: center;
+    }
+  }
+}
+
+.delivery-form .examine {
+  margin-top: 20px;
+  > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    width: 150px;
+    text-align: center;
+  }
+  img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+.contract-form {
+  > div {
+    margin-top: 15px;
+    > label:nth-of-type(2) {
+      margin-left: 70px;
+    }
+  }
+  div.product {
+    line-height: inherit;
+  }
+}
+
+.addpro-form {
+  > div {
+    margin-top: 20px;
+  }
+}

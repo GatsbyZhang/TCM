@@ -1,0 +1,64 @@
+#main {
+  width: 86%;
+  float: left;
+  min-height: 970px;
+  background: #eee;
+  .ant-tabs-nav {
+    width: 100%;
+  }
+  div[role="tab"] {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    width: 15%;
+  }
+  button.hide-button {
+    display: none;
+  }
+
+  /*下拉列表样式*/
+  select, option {
+    color: #0f87dd;
+    padding: 3px 5px;
+    font-size: 14px;
+    border: none;
+  }
+  select.ui-pg-selbox {
+    padding: 0;
+  }
+}
+
+/*模态框样式*/
+.ant-modal-footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.operate {
+  margin-top: 50px;
+  ul {
+    border: 1px solid #aaa;
+    border-width: 1px 0;
+  }
+  li {
+    width: 20%;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 15px;
+    color: black;
+    margin: 5px 0;
+    text-align: center;
+    border-right: 1px solid #aaaaaa;
+  }
+}
+
+div#inner-cart {
+  margin: 20px 0;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.anchorBL,text.highcharts-credits{
+  display: none;
+}

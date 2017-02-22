@@ -1,0 +1,61 @@
+
+#innerUser{
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px;
+  .inneruser{
+    padding: 5px 20px;
+  }
+  .options{
+    margin-bottom: 1.5rem;
+  }
+  .config-div{
+    margin-top:3em;
+    &:hover{
+      box-shadow:1px 1px 2px #E9E9E9;
+    }
+  }
+}
+#userMng-table,#userOperate-table{
+
+  tr{
+    line-height: 2em;
+    height:2em;
+    padding:0.5em;
+    margin:0.5em;
+  }
+}
+.roll-btn{
+  border:none;
+  background: #0CB0B5;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  color: #fff;
+}
+.roll-btn-disabled{
+  border:none;
+  background: #ddd;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  color: #fff;
+  cursor: not-allowed;
+}
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}

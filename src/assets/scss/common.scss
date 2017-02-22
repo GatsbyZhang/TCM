@@ -1,0 +1,140 @@
+/*公共样式文件*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix::after {
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+  content: "";
+}
+
+#body {
+  width: 100%;
+  min-width: 1200px;
+}
+
+#foot {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+button.cancel {
+  padding: 2px 8px;
+  letter-spacing: 2px;
+  background: #0f87dd;
+  color: #e7f6e1;
+  border: none;
+}
+button.cancel-disabled {
+  background: #aaa;
+  color: #fff;
+}
+
+//修改默认表格样式
+table.ui-jqgrid-btable, table.ui-jqgrid-htable {
+  tr:not([class="jqgfirstrow"]) {
+    height: 36px !important;
+  }
+}
+
+.ui-jqgrid .ui-pg-input {
+  text-align: center;
+  margin: 0 2px;
+  width: 20px;
+}
+
+tr[role="rowheader"] {
+  font-size: 15px !important;
+}
+
+.ui-jqgrid .ui-jqgrid-pager {
+  height: 35px;
+  tr {
+    height: 35px !important;
+  }
+}
+
+/*修改浏览器默认滚动条样式*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* 这是针对缺省样式 (必须的) */
+::-webkit-scrollbar-track {
+  background-color: #dddddd;
+}
+
+/* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+  background-color: #0f87dd;
+  -webkit-border-radius: 10px;
+
+}
+
+/* 滑块颜色 */
+
+::-webkit-scrollbar-button {
+  background-color: #dddddd;
+}
+
+/* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+input[disabled] {
+  background: #eee;
+  border: transparent;
+}
+/*地图样式*/
+#address {
+  input {
+    width: 250px;
+  }
+  .jingweidu {
+    display: inline-block;
+    margin-left: 20px;
+    input {
+      width: 170px;
+    }
+    label {
+      width: 60px;
+    }
+  }
+}
+
+.address-map {
+  margin-top: 20px;
+  height: 260px;
+}
+
+label.addresss-icon {
+  i {
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+  }
+}

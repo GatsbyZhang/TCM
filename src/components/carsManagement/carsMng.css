@@ -1,0 +1,40 @@
+#carsManagement {
+  padding: 10px 30px;
+  background: white; }
+
+#cars-table tr {
+  line-height: 2em;
+  height: 2em;
+  padding: 0.5em;
+  margin: 0.5em; }
+
+.breakdown {
+  background-color: #108EE9;
+  color: #fff;
+  display: inline-block;
+  line-height: 2em;
+  width: 6em;
+  text-align: center;
+  cursor: pointer; }
+
+.roll-btn {
+  border: none;
+  background: #108EE9;
+  color: #fff; }
+
+.roll-btn-disabled {
+  border: none;
+  background: #ddd;
+  color: #fff;
+  cursor: not-allowed; }
+
+#car-detail-model {
+  height: 1080px;
+  overflow-y: auto; }
+  #car-detail-model::-webkit-scrollbar {
+    width: 10px; }
+  #car-detail-model::-webkit-scrollbar-thumb {
+    background: #FFA711;
+    border-radius: 4px; }
+
+/*# sourceMappingURL=carsMng.css.map */

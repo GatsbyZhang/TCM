@@ -1,0 +1,65 @@
+#upload-pic {
+  .cropit-preview {
+    background-color: #f8f8f8;
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .cropit-preview-image-container {
+    cursor: move;
+  }
+  .image-size-label {
+    margin-top: 10px;
+  }
+
+  input {
+    display: block;
+  }
+
+  button {
+    margin: 10px 20px;
+  }
+  .cropit-preview.cropit-image-loading .spinner {
+    opacity: 1;
+  }
+
+  /* Show move cursor when image has been loaded */
+  .cropit-preview.cropit-image-loaded .cropit-preview-image-container {
+    cursor: move;
+  }
+
+  /* Gray out zoom slider when the image cannot be zoomed */
+
+  .cropit-image-zoom-input[disabled] {
+    opacity: .2;
+  }
+  .cropit-image-input {
+    position: relative;
+    top: 0;
+    z-index: 999;
+  }
+  /* The following styles are only relevant to when background image is enabled */
+
+  /* Translucent background image */
+  .cropit-preview-background {
+    opacity: .4;
+  }
+
+  /*
+   * If the slider or anything else is covered by the background image,
+   * use non-static position on it
+   */
+  input.cropit-image-zoom-input {
+    position: relative;
+  }
+
+  /* Limit the background image by adding overflow: hidden */
+  .image-editor {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}

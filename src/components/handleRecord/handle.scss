@@ -1,0 +1,30 @@
+#handleRecord{
+  background: white;
+  margin: 15px 25px 0;
+  height: 940px;
+  min-width: 1250px;
+  .options{
+    margin-bottom: 1.5rem;
+  }
+}
+#components-form-demo-advanced-search  {
+  .ant-advanced-search-form{
+    padding: 24px;
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+  }
+}
+#hr{
+  height:0;
+  border:solid #108EE9 2px;
+  margin:3em 0;
+}
+#search-form{
+  padding-top: 3em;
+}
+.operate {
+  &>div{
+    padding: 5px 20px;
+  }
+}
