@@ -37,8 +37,14 @@
 
 ## <a name="development">&sect; 开发</a>
 ### <a name="webpack-configure">⊙ Webpack 配置</a>
-> 由于已经拥有相对成熟的 Webpack 配置，因此在一定程度上您可以不求甚解，但了解其配置会更能把握整体开发  
 
+> 由于已经拥有相对成熟的 Webpack 配置，因此在一定程度上您可以不求甚解，但了解其配置会更能把握整体开发  
+>TCM的webpack配置文件包括webapck.config.base.js、webapck.config.dev.js、webapck.config.prod.js三个基本文件，
+ >webpack.config.base.js是基本配置文件，webpack.config.dev.js是开发配置，webpack.config.prod.js是产品配置文件，
+ >webpack.config.base.js包含一些webpack.config.prod.js和webpack.config.base.js共有的基本配置，
+ >而webpack.config.prod.js和webpack.config.base.js在webpack.config.base.js的基础上添加了一些必要配置。
+ >为了引入Node的express API，通过dev.js和prod.js对顶层配置进行定义，因此，最后的package.json文件包含了开发和生产阶段
+ >的不同指令对应的不同配置文件。
 * 前端开发服务器为 `localhost:9090`，可在 `build/webpack.dev.conf.js` 中找到
 > 后端 RESTful API 基地址写在了 `src/services/xhr/config.js` 中，请根据实际自行修改
 
