@@ -8,7 +8,7 @@ var webpack = require('webpack'),
 
 config.output.filename = '[name].[chunkhash:6].js';
 config.output.chunkFilename = '[id].[chunkhash:6].js';
-
+// 不使用调试工具
 config.devtool = SOURCE_MAP ? 'source-map' : false;
 
 // 生产环境下分离出 CSS 文件

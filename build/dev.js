@@ -16,6 +16,7 @@ app.all('*',function (req, res, next) {
         next();
     }
 });
+
 var compiler = webpack(config);
 
 // for highly stable resources

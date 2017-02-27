@@ -2,8 +2,10 @@ var path = require('path'),
   webpack = require('webpack'),
   NyanProgressPlugin = require('nyan-progress-webpack-plugin');
 
+// 在任何模块文件内部，可以使用__dirname变量获得当前模块所在目录的完整路径
 var rootPath = path.resolve(__dirname, '..'), // 项目根目录
   src = path.join(rootPath, 'src'), // 开发源码目录
+    // Node.js中的process.env.NODE_ENV可以设置环境变量，默认为development
   env = process.env.NODE_ENV.trim(); // 当前环境
 var commonPath = {
   rootPath: rootPath,
@@ -13,7 +15,7 @@ var commonPath = {
 };
 
 module.exports = {
-  commonPath: commonPath,
+  commonPath: commonPath,// 公共目录定义
   entry: {
     // ================================
     // 框架 / 类库 分离打包
@@ -36,7 +38,7 @@ module.exports = {
     //定义资源的默认后缀名
     extensions: ['', '.js', '.jsx','.scss','.json','.css'],
     alias: {
-      // ================================
+      // =============================
       // 自定义路径别名
       // ================================
       ASSET: path.join(src, 'assets'),
